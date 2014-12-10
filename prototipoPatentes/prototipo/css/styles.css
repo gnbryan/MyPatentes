@@ -1,0 +1,94 @@
+html,body,ul{margin:0;padding:0;}
+.wrapper{background:url("../img/6.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;height:100%;margin:auto;width:100%;position:fixed;overflow:auto;}
+#cabecera,#pie,#pie2{background:#5c5c5c;height:70px;padding:10px 20px;position:relative;}
+#cabecera .logo{display:inline-block;}
+h1,a{color:#000;}
+#menu{float:right;}
+#menu li{display:inline-block;margin-right:15px;}
+
+.button{background:#55d8ff;color:#fff;border:1px outset #fff;border-right:1px solid #55d8ff;border-bottom:1px solid #55d8ff;padding:7px 14px;position:relative;text-decoration:none;top:25px;}
+.button:hover{background:#2dc3f0;}
+
+#contenido{text-align:center;}
+#centrar-caja-busqueda{left:50%;position:absolute;top:50%;}
+.container-2{left:-50%;position:relative;width:730px;}
+.container-2 #buscar{
+	background: #f6f6f6;
+  color:#262626;
+	font-size:2em;
+  height:90px;
+	padding:0 20px;
+  width:600px;
+	-webkit-transition: width .7s ease-in-out;
+	-moz-transition: width .7s ease-in-out;
+	-ms-transition: width .7s ease-in-out;
+	-o-transition: width .7s ease-in-out;
+	transition: width .7s ease-in-out;
+}
+
+.container-2 #buscar::-webkit-input-placeholder{color:#65737e;}
+.container-2 #buscar:-moz-placeholder{color:#65737e;}
+.container-2 #buscar::-moz-placeholder{color:#65737e;}
+.container-2 #buscar:-ms-input-placeholder{color:#65737e;}
+
+.container-2 input{border:none;}
+
+.container-2 .icon{
+  background:url("../img/search-icon2.png") no-repeat 50% 50% #55d8ff;
+  color:#4f5b66;
+  height:90px;
+  position: absolute;
+  width:90px;
+}
+
+.container-2 .icon:hover{background:url("../img/search-icon2.png") no-repeat 50% 50% #2dc3f0;cursor:pointer;}
+
+#resultado{height:300px;width:300px;position:relative;}
+
+#loading{background-image:url("../img/ajax-loader.gif");width:24px;height:24px;display:none;margin:auto;position:relative;}
+
+.acerca-de{
+  left:70%;
+  width:200px;
+}
+.acerca-de2{
+  left:70%;
+  width:200px;
+  top:90px;
+}
+
+.quienes-somos{
+  left:79%;
+  width:255px;
+}
+.quienes-somos2{
+  left:79%;
+  width:255px;
+  top:90px;
+}
+
+.quienes-somos li,.quienes-somos2 li{list-style:none;}
+
+.acerca-de,.acerca-de2,.quienes-somos,.quienes-somos2{
+  background:#eee;
+  display:none;
+  line-height:1.5em;
+  padding:5px 10px;
+  position:absolute;
+  
+}
+
+#pie2{
+  height:70px;
+  width:100%;
+  position:relative;
+  top:50px;
+}
+
+#pie{
+    width:100%;
+height:70px;
+position:absolute;
+bottom:0;
+left:0;
+}
