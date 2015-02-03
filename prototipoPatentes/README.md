@@ -1,4 +1,0 @@
-prototipoPatentes
-=================
-
-Prototipo de patentes
